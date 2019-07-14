@@ -29,7 +29,7 @@ class Song
   end
   
   def self.find_by_name(title)
-    result = 
+    result = self.all.detect
       if song.name == name 
         return song 
       end
