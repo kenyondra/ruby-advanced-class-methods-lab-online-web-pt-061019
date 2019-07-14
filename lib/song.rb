@@ -51,6 +51,9 @@ class Song
       song = self.new 
       song.name = song_array[1]
       song.artist_name = song_array[0]
-      
+      song 
+    end
+    
+    
     
 end
